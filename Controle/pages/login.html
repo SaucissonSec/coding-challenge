@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <script src="../js/login.js"></script>
+        <meta charset="utf-8">
+        <meta name="keywords" content="login,register,CodingChallenge,questionnaire">
+        <meta name="description" content="Le site créé par Adrien Montenont et Antoine Babia pour le coding CodingChallenge | Page contact et questionnaire" />
+        <meta name="author" lang="fr" content="Adrien MONTENONT, Antoine Babia">
+    </head>
+
+
+    <header>
+	
+        <nav id="navigation">
+                  <div class="logo">
+                        <img src="img/Logo.png" href="pages/index.html">
+                  </div>                
+
+                <ul id="nav">
+                    <li id="nav-login"><a href="login.html">Login</a></li>
+                    <li id="nav-signup"><a href="login.html">Signup</a></li>
+                    <li id="nav-contact"><a href="contact.html">Contact</a></li>
+                    <li id="nav-offer"><a href="offer.html">Offres</a></li>
+                 </ul>
+
+                 <div id="defilnav">
+                    <a href="#" onclick="ouvrirMenu()" id="menu">&#9776;</a>
+                 </div>
+            </nav>
+
+        
+    </header>
+
+
+
+
+    <body>
+            <div class="login">
+                <form id="login" onsubmit="checkLogin()">
+                    <label for="pseudo"><b>Pseudonyme</b></label>
+                    <input id="pseudoLogin" type="text" placeholder="Nom d'utilisateur" name="pseudo">
+                
+                    <label for="mdp"><b>Mot de passe</b></label>
+                    <input id="mdpLogin" type="password" placeholder="Mot de passe" name="mdp">
+                        
+                    <button type="submit">Login</button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="souvenir"> Se souvenir de moi
+                    </label>
+                </form>
+                    <button id="mdp-oubli" onclick="oubli()">Mot de passe oublié?</button>
+                    <p id="oubli" class="oubli">Bah fallait s'en souvenir lol</p>
+            </div>
+            <br/>
+            <br/>
+            <div class="register">
+                    <form id="register" onsubmit="checkRegister()">
+                        <label for="pseudo"><b>Pseudonyme</b></label>
+                        <input id="pseudoRegister" type="text" placeholder="Nom d'utilisateur" name="pseudo">
+                        <label for="pseudo"><b>Email</b></label>
+                        <input id="emailRegister" type="email" placeholder="Email" name="email">
+                        <label for="mdp"><b>Mot de passe</b></label>
+                        <input id="mdpRegister" type="password" placeholder="Mot de passe" name="mdp">
+                            
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+    </body>
+
+    <footer id="footer">
+        <div id="information">
+        <div class="info">
+            <a class="navbar-brand"> <img src="img/Logo.png" width="25%" height="25%" alt=""></a><br>
+            Site du CodingChallenge<br>
+            Bienvenue sur le site du Coding Challenge crée par Adrien Montenont et Antoine Babia <br>
+            email@gmail.com<br>
+            N° 06 00 00 00 00 00<br>
+        </div>
+        
+        <div class="info">
+            Lien des pages
+        </div>
+        
+        <div class="info">
+
+            <a class="lienfooter" href="../index.html"> Accueil</a>
+            <a class="lienfooter" href="login.html"> Login</a>
+            <a class="lienfooter" href="login.html"> Signup</a>
+            <a class="lienfooter" href="contact.html"> Contact</a>
+            <a class="lienfooter" href="offer.html"> Offres</a>
+        </div>
+        
+        <div class="info">
+            Copyright 2019 MonteBia ©
+        </div>
+    </div>
+
+    <div id="reseaux">
+        <a href="#">Facebook</a><br>
+        <a href="#">Instagram</a><br>
+        <a href="#">Twitter</a><br><br>
+
+        <a href="http://www.u-pem.fr/">UPEM</a>
+
+
+    </div>
+
+    </footer>
+
+
+
+</html>

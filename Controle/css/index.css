@@ -1,0 +1,137 @@
+html,body {
+	width:100%;
+	height:100%;
+	margin:0 auto;
+}
+  
+  .logo img {
+    float: left;
+    width: 100px;
+    height: 70px;
+  }
+      
+  #nav 
+  {
+     margin:0;
+     padding:0;     
+     float: right;
+  }
+   
+  #nav li 
+  {
+     display:inline;
+     padding:0;
+     margin:0;
+  }  
+
+  #nav a {
+    text-decoration: none;
+    color:#000;
+    background:#9d8257;
+    padding: 10px;
+  }
+
+  .sectPrin {
+    height: 100%;
+    min-height: 250px;
+  }
+
+  .sectsecond {
+    height: auto;
+    max-height: 350px;
+  }
+
+  .art1 {
+    width: 20%;
+    background-color: red;
+    float: left;
+  }
+
+  .art2 {
+    width: 20%;
+    background-color: red;
+  }
+
+  .art3 {
+    width: 20%;
+    background-color: red;
+    padding-left: 100px;
+  }
+
+  .bouton {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 5px 10px;
+    background: #E3E3E3;
+    border: 1px solid #B365E5;
+    color: #B365E5;	
+    margin:2px;
+    text-decoration: none;
+  }  
+
+  #navigation {
+    width: 100%;
+    height: 60px;
+    background-color: #474646;
+  }
+
+
+  #footer {
+    height:30%;
+    width:100%;
+    background-color:#f8f9fa;
+    text-align:center;  
+  }
+  
+  #information {
+    float: left;
+    width: 50%;
+  }
+
+  .reseaux {
+    float: right;
+    width: 50%;
+  }
+
+  #menu {
+    display: none;
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+
+  #mot1 {
+    opacity: 1;
+  }
+
+  #mot2 {
+    opacity: 0;
+  }
+
+  .question {
+    display: block;
+}
+.if-oui {
+    display: none;
+}
+.if-non {
+    display: none;
+}
+.oubli {
+    display: none;
+}
+
+  @media (max-width: 650px) {
+
+    #menu {
+      display: block;
+    }
+
+    #nav {
+      display: none;
+    }
+    #defilnav{
+
+    }
+  }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Examen javascript</title>
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <meta charset="utf-8"/>
+        <meta name="keywords" content="examen,exercice,javascript,CodingChallenge">
+        <meta name="description" content="Le site crée par Adrien Montenont et Antoine Babia pour le coding CodingChallenge | Exercices de javascript" />
+        <meta name="author" lang="fr" content="Adrien MONTENONT, Antoine Babia">
+        <script src="../js/examen-javascript.js"></script>
+    </head>
+
+
+    <header>
+	
+        <nav id="navigation">
+                  <div class="logo">
+                        <img src="img/Logo.png" href="pages/index.html">
+                  </div>                
+
+                <ul id="nav">
+                    <li id="nav-login"><a href="login.html">Login</a></li>
+                    <li id="nav-signup"><a href="login.html">Signup</a></li>
+                    <li id="nav-contact"><a href="contact.html">Contact</a></li>
+                    <li id="nav-offer"><a href="offer.html">Offres</a></li>
+                 </ul>
+
+                 <div id="defilnav">
+                    <a href="#" onclick="ouvrirMenu()" id="menu">&#9776;</a>
+                 </div>
+            </nav>
+
+        
+    </header>
+
+
+
+    <body>
+Division
+Nombre 1<input type="number" id="number1" onkeydown="division()">
+Nombre 2<input type="number" id="number2" onkeydown="division()">
+<span id="result"></span>
+<br/>
+Conversion
+<input type ="number" id="grammes" onkeydown="grammes()">
+<span id="kilo"></span> <br/>
+<input type ="number" id="yuan" onkeydown="yuan()">
+<span id="euro"></span> <br/>
+Arrondi 
+<input type="number" id="decimal" onkeydown="arrondi()">
+<span id="entier"></span> <br/>
+
+
+
+    </body>
+
+    <footer id="footer">
+        <div id="information">
+        <div class="info">
+            <a class="navbar-brand"> <img src="img/Logo.png" width="25%" height="25%" alt=""></a><br>
+            Site du CodingChallenge<br>
+            Bienvenue sur le site du Coding Challenge crée par Adrien Montenont et Antoine Babia <br>
+            email@gmail.com<br>
+            N° 06 00 00 00 00 00<br>
+        </div>
+        
+        <div class="info">
+            Lien des pages
+        </div>
+        
+        <div class="info">
+
+            <a class="lienfooter" href="../index.html"> Accueil</a>
+            <a class="lienfooter" href="login.html"> Login</a>
+            <a class="lienfooter" href="login.html"> Signup</a>
+            <a class="lienfooter" href="contact.html"> Contact</a>
+            <a class="lienfooter" href="offer.html"> Offres</a>
+        </div>
+        
+        <div class="info">
+            Copyright 2019 MonteBia ©
+        </div>
+    </div>
+
+    <div id="reseaux">
+        <a href="#">Facebook</a><br>
+        <a href="#">Instagram</a><br>
+        <a href="#">Twitter</a><br><br>
+
+        <a href="http://www.u-pem.fr/">UPEM</a>
+
+
+    </div>
+
+    </footer>
+
+
+    </html>
